@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftside {
+    background: green url(background.jpg) no-repeat center;
+    width: 40vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+img[src='logo.png'] {
+    width: 200px;
+    height: 200px;
+}

@@ -49,4 +49,45 @@ img[src='logo.png'] {
     background: black;
     opacity: .8;
     width: 60vw;
+    
+}
+
+.dummy-text {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dummy-text:nth-child(1) {
+    margin-top: 25vh;
+}
+
+.second {
+    margin-top: 1vh;
+}
+
+.form {
+    margin: 5vh 2vw 0 2vw;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    
+}
+
+.button {
+    margin-left: 7vw;
+    margin-top: 20px;
 }

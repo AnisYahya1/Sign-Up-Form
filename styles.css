@@ -73,10 +73,10 @@ img[src='logo.png'] {
     color: white;
     font-size: 1.5rem;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    align-items: center;
 }
 
 .input {
@@ -91,3 +91,15 @@ img[src='logo.png'] {
     margin-left: 7vw;
     margin-top: 20px;
 }
+
+input {
+    font-size: 1.2rem;
+}
+
+input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
